@@ -15,6 +15,13 @@ import java.util.Map;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
+Создание таблицы :
+
+        // CREATE TABLE demoJson(
+        // id SERIAL NOT NULL PRIMARY KEY,
+        // jsonData JSONB NOT NULL
+        //  );
+
 @Entity
 @Table(name = "demoJson")
 @TypeDefs({
