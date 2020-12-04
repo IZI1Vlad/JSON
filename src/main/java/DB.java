@@ -15,7 +15,7 @@ import java.util.Map;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
-Создание таблицы :
+// Создание таблицы :
 
         // CREATE TABLE demoJson(
         // id SERIAL NOT NULL PRIMARY KEY,
